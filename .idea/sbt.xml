@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/platform-core" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/platform-core" />
+            <option value="$PROJECT_DIR$/platform-core/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.6.2" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/platform-core/cassandra-connector" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/platform-core/cassandra-connector" />
+            <option value="$PROJECT_DIR$/platform-core/cassandra-connector/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.7.1" />
+      </SbtProjectSettings>
+    </option>
+  </component>
+</project>

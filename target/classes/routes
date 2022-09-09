@@ -1,0 +1,5 @@
+GET            /content/list                      controllers.HomeController.list
+POST           /content/start                     controllers.HomeController.start
+POST           /content/update                    controllers.HomeController.update
+POST           /content/end                       controllers.HomeController.end
+POST           /content/consumptionList           controllers.HomeController.consumptionList

@@ -1,0 +1,43 @@
+{
+  "book1":
+  {
+    "content_id": "1",
+    "name": "mockingjay",
+    "pages": "250",
+    "content_type": "textbook"
+  },
+
+  "book2":
+  {
+    "content_id": "2",
+    "name": "wings",
+    "pages": "170",
+    "content_type": "textbook"
+  }
+,
+
+  "book3":
+  {
+    "content_id": "3",
+    "name": "goldfinger",
+    "pages": "320",
+    "content_type": "textbook"
+  },
+
+  "book4":
+  {
+    "content_id": "4",
+    "name": "attonment",
+    "pages": "190",
+    "content_type": "textbook"
+  },
+
+  "book5":
+  {
+    "content_id": "5",
+    "name": "long-ago",
+    "pages": "260",
+    "content_type": "textbook"
+  }
+
+}

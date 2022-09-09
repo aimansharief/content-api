@@ -1,0 +1,13 @@
+version: "2.4"
+services:
+  contents:
+    image: contents:latest
+    ports:
+      - "9000:9000"
+    depends_on :
+      db:
+        condition: service_started
+  db:
+    image: cassandra
+    ports:
+      - "9042:9042"

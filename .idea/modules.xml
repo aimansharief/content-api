@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/platform-core/cassandra-connector/.idea/modules/cassandra-connector-build.iml" filepath="$PROJECT_DIR$/platform-core/cassandra-connector/.idea/modules/cassandra-connector-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/content-api.iml" filepath="$PROJECT_DIR$/.idea/modules/content-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/content-api-build.iml" filepath="$PROJECT_DIR$/.idea/modules/content-api-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform-core/.idea/modules/platform-core-build.iml" filepath="$PROJECT_DIR$/platform-core/.idea/modules/platform-core-build.iml" />
+    </modules>
+  </component>
+</project>
