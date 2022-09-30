@@ -16,8 +16,8 @@ class HomeController @Inject()(cc: ControllerComponents) extends AbstractControl
   val users = List("user1", "user2", "user3")
   val content_type = List("textbook")
   val content_id = List("content-1", "content-2", "content-3", "content-4", "content-5")
-  val source= Source.fromFile("/contents.json")
-  //val source= Source.fromFile("/home/stpl/Downloads/content-api-main/conf/contents.json")
+  //val source= Source.fromFile("/contents.json")
+  val source= Source.fromFile("/home/stpl/Downloads/content-api/conf/contents.json")
   val mapper = new ObjectMapper
 
   //List API-To list contents present

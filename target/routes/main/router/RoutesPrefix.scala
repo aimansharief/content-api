@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/home/stpl/Downloads/content-api-main/conf/routes
-// @DATE:Fri Sep 09 12:52:16 IST 2022
+// @SOURCE:/home/stpl/Downloads/content-api/conf/routes
+// @DATE:Fri Sep 30 09:51:46 IST 2022
 
 
 package router {

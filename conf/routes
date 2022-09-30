@@ -3,3 +3,4 @@ POST           /content/start                     controllers.HomeController.sta
 POST           /content/update                    controllers.HomeController.update
 POST           /content/end                       controllers.HomeController.end
 POST           /content/consumptionList           controllers.HomeController.consumptionList
+GET            /content/serviceHealth             controllers.HealthController.serviceHealth

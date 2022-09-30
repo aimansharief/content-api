@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/home/stpl/Downloads/content-api-main/conf/routes
-// @DATE:Fri Sep 09 12:52:16 IST 2022
+// @SOURCE:/home/stpl/Downloads/content-api/conf/routes
+// @DATE:Fri Sep 30 09:51:46 IST 2022
 
 import play.api.mvc.Call
 
@@ -9,6 +9,21 @@ import _root_.controllers.Assets.Asset
 
 // @LINE:1
 package controllers {
+
+  // @LINE:6
+  class ReverseHealthController(_prefix: => String) {
+    def _defaultPrefix: String = {
+      if (_prefix.endsWith("/")) "" else "/"
+    }
+
+  
+    // @LINE:6
+    def serviceHealth(): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "content/serviceHealth")
+    }
+  
+  }
 
   // @LINE:1
   class ReverseHomeController(_prefix: => String) {
